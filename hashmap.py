@@ -2,7 +2,7 @@ def new(num_buckets=256):
     """Initialises a Map with the given number of buckets."""
     aMap = []
     for i in range(0,num_buckets):
-        aMap.append[i]
+        aMap.append([])
     return aMap
 
 def hash_key(aMap, key):
